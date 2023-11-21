@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0
 // Event contract - 
-//  1. Define event along with the types of tickets to be sold based on ticket's availability and price
-//      a. Only Event Manager will define the event and the types of tickets for an event along with their availability.
-//  2. Ability to buy, transfer and refund tickets
-//      a. Customers can buy tickets for multiple events and also types of tickets.
-//      b. Except Event Manager, everybody else can buy, transfer and refund tickets.
-//	c. Refund window closes 24 hours before the event.
+//    1. Define event along with the types of tickets to be sold based on ticket's availability and price
+//        a. Only Event Manager will define the event and the types of tickets for an event along with their availability.
+//    2. Ability to buy, transfer and refund tickets
+//        a. Customers can buy tickets for multiple events and also types of tickets.
+//        b. Except Event Manager, everybody else can buy, transfer and refund tickets.
+//        c. Refund window closes 24 hours before the event.
+//        d. Customers can also view the available tickets along with the tickets alloted to them.
 
 import "@openzeppelin/contracts/utils/Strings.sol";
 
